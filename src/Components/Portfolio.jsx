@@ -30,15 +30,16 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-   {
+  {
     title: "My Resume Site",
-    description:"Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+    description:
+      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
     url: "https://github.com/neamoh/portforlio_Esther",
   },
 ];
 
 const Portfolio = () => {
-  return(
+  return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>

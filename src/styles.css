@@ -6,6 +6,7 @@
 
 html,
 body {
+
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
@@ -13,7 +14,7 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/* add a smooth scroll */
 div#main {
   display: flex;
   flex-direction: column;
@@ -43,6 +44,9 @@ section img.background {
   transform: translate(-50%, 0);
   width: 100vmax;
   z-index: -1;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -122,4 +126,12 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
